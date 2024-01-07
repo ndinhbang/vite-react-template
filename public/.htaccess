@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !^/index.html$
+RewriteCond %{REQUEST_URI} !.(gif|jpeg|png|css|js|svg|jpg|ico|webmanifest|json)$
+RewriteRule .* /index.html [L]
