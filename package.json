@@ -11,6 +11,10 @@
     "generate-pwa-assets": "pwa-assets-generator --preset minimal-2023 public/logo.svg"
   },
   "dependencies": {
+    "@coreui/coreui-pro": "^4.6.4",
+    "@coreui/icons": "^3.0.1",
+    "@coreui/icons-react": "^2.2.1",
+    "@coreui/react-pro": "^4.15.2",
     "bunshi": "^2.0.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
