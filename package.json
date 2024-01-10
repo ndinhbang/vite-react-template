@@ -11,6 +11,7 @@
     "generate-pwa-assets": "pwa-assets-generator --preset minimal-2023 public/logo.svg"
   },
   "dependencies": {
+    "@legendapp/state": "^2.1.4",
     "bunshi": "^2.0.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
