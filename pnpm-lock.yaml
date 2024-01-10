@@ -23,6 +23,9 @@ dependencies:
   fast-equals:
     specifier: ^5.0.1
     version: 5.0.1
+  form-atoms:
+    specifier: ^3.2.1
+    version: 3.2.1(jotai@2.6.1)(react@18.2.0)
   idb:
     specifier: ^8.0.0
     version: 8.0.0
@@ -3026,6 +3029,16 @@ packages:
     dependencies:
       is-callable: 1.2.7
     dev: true
+
+  /form-atoms@3.2.1(jotai@2.6.1)(react@18.2.0):
+    resolution: {integrity: sha512-s3bezFa27g7GUT7QCg5Ypfxgbaetmge2+MAJtIJcIcnuoTTA+dVw5dMQ+3bxUDG74OkAmqFqz0Ym/fhxLJH6DQ==}
+    peerDependencies:
+      jotai: ^2.0.0
+      react: '>=16.8'
+    dependencies:
+      jotai: 2.6.1(@types/react@18.2.47)(react@18.2.0)
+      react: 18.2.0
+    dev: false
 
   /form-data@4.0.0:
     resolution: {integrity: sha512-ETEklSGi5t0QMZuiXoA/Q6vcnxcLQP5vdugSpuAyi6SVGi2clPPp+xgEhuMaHC+zGgn31Kd235W35f7Hykkaww==}
