@@ -1,11 +1,11 @@
 import { createElement } from 'react';
-import HasSidebarLayout from "@/layouts/HasSidebarLayout.jsx";
+import DefaultLayout from "@/layouts/DefaultLayout.jsx";
 import UserIndex from "@/pages/admin/user/Index.jsx";
 
 export const routes = [
     {
         path: 'admin',
-        element: createElement(HasSidebarLayout),
+        element: createElement(DefaultLayout),
         children: [
             {
                 path: 'user',
