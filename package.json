@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "template.bang",
   "private": true,
   "version": "0.0.0",
@@ -12,6 +12,10 @@
   },
   "dependencies": {
     "@legendapp/state": "^2.1.4",
+    "@coreui/coreui-pro": "^4.6.4",
+    "@coreui/icons": "^3.0.1",
+    "@coreui/icons-react": "^2.2.1",
+    "@coreui/react-pro": "^4.15.2",
     "bunshi": "^2.0.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
@@ -36,12 +40,16 @@
     "@types/react-dom": "^18.2.18",
     "@vite-pwa/assets-generator": "^0.2.2",
     "@vitejs/plugin-react-swc": "^3.5.0",
+    "autoprefixer": "^10.4.16",
     "eslint": "^8.56.0",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
+    "postcss": "^8.4.33",
     "prettier": "^3.1.1",
     "prop-types": "^15.8.1",
+    "sass": "^1.69.7",
+    "tailwindcss": "^3.4.1",
     "vite": "^5.0.11",
     "vite-plugin-mkcert": "^1.17.1",
     "vite-plugin-pwa": "^0.17.4",
