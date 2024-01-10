@@ -9,7 +9,7 @@ import {
 import CIcon from '@coreui/icons-react';
 import { cilBell, cilEnvelopeOpen, cilList } from '@coreui/icons';
 import { NavLink } from 'react-router-dom';
-import HeaderToggler from '@/components/app/HeaderToggler.jsx';
+import SidebarToggler from '@/components/app/SidebarToggler.jsx';
 
 function AppHeaderDropdown() {
   return null;
@@ -26,7 +26,7 @@ const Header = ({ sidebarShow = true }) => {
       className='mb-4'
     >
       <CContainer fluid>
-        <HeaderToggler />
+        <SidebarToggler />
         <CHeaderBrand
           className='mx-auto d-md-none'
           to='/'

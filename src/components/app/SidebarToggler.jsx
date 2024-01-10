@@ -1,11 +1,11 @@
 import CIcon from '@coreui/icons-react';
 import { cilMenu } from '@coreui/icons';
 import { CHeaderToggler } from '@coreui/react-pro';
-import { useAtom } from 'jotai/index.js';
+import { useAtom } from 'jotai';
 import { sidebarVisibleAtom } from '@/store/app.js';
 import { useCallback } from 'react';
 
-const HeaderToggler = () => {
+const SidebarToggler = () => {
   const [sidebarVisible, setSidebarVisisble] = useAtom(sidebarVisibleAtom);
   const onSidebarToggle = useCallback(() => {
     setSidebarVisisble(!sidebarVisible);
@@ -24,4 +24,4 @@ const HeaderToggler = () => {
   );
 };
 
-export default HeaderToggler;
+export default SidebarToggler;
