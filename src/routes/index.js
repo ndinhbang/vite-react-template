@@ -1,7 +1,8 @@
 import MasterLayout from "@/layouts/MasterLayout.jsx";
 import Dashboard from "@/pages/Dashboard.jsx";
 import { createElement } from "react";
-import { routes as guestRoutes } from "@/routes/guest";
+import { routes as GuestRoutes } from "@/routes/guest.js";
+import { routes as AdminRoutes } from "@/routes/admin.js";
 
 const routes = [
     {
@@ -12,7 +13,8 @@ const routes = [
                 index: true,
                 element: createElement(Dashboard),
             },
-            ...guestRoutes
+            ...GuestRoutes,
+            ...AdminRoutes,
         ]
     },
 ]
