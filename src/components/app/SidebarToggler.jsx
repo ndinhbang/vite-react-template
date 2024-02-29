@@ -1,15 +1,15 @@
 import CIcon from '@coreui/icons-react';
 import { cilMenu } from '@coreui/icons';
 import { CHeaderToggler } from '@coreui/react-pro';
-import { useAtom } from 'jotai';
+import { useSetAtom } from 'jotai';
 import { sidebarVisibleAtom } from '@/store/app.js';
 import { useCallback } from 'react';
 
 const SidebarToggler = () => {
-  const [sidebarVisible, setSidebarVisisble] = useAtom(sidebarVisibleAtom);
+  const setSidebarVisisble = useSetAtom(sidebarVisibleAtom);
   const onSidebarToggle = useCallback(() => {
-    setSidebarVisisble(!sidebarVisible);
-  }, [sidebarVisible]);
+    setSidebarVisisble((current) => !current);
+  }, []);
 
   return (
     <CHeaderToggler
