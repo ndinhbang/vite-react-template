@@ -1,5 +1,5 @@
-const pages = [
-  {
+const pages = {
+  'auth.login': {
     routeName: 'auth.login',
     title: 'Login',
     path: '/auth/login',
@@ -7,7 +7,7 @@ const pages = [
       requireAuth: false,
     },
   },
-  {
+  'auth.register': {
     routeName: 'auth.register',
     title: 'Register',
     path: '/auth/register',
@@ -15,6 +15,6 @@ const pages = [
       requireAuth: false,
     },
   },
-];
+};
 
 export { pages };
