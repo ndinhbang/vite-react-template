@@ -47,12 +47,18 @@ dependencies:
   jotai:
     specifier: ^2.7.0
     version: 2.7.0(@types/react@18.2.60)(react@18.2.0)
+  jotai-effect:
+    specifier: ^0.6.0
+    version: 0.6.0(jotai@2.7.0)
   jotai-location:
     specifier: ^0.5.4
     version: 0.5.4(jotai@2.7.0)
   jotai-optics:
     specifier: ^0.3.2
     version: 0.3.2(jotai@2.7.0)(optics-ts@2.4.1)
+  jotai-scope:
+    specifier: ^0.5.1
+    version: 0.5.1(jotai@2.7.0)(react@18.2.0)
   libsodium-wrappers:
     specifier: ^0.7.13
     version: 0.7.13
@@ -3811,6 +3817,14 @@ packages:
     hasBin: true
     dev: true
 
+  /jotai-effect@0.6.0(jotai@2.7.0):
+    resolution: {integrity: sha512-PCewL5ThH3MXYI6+sQwvkk3o+gje4K1qw2YnyqjRVnZbIxqX3zHZv11JXqXosRkT8p3a51gd3pLv7+cBfyXz7A==}
+    peerDependencies:
+      jotai: '>=2.5.0'
+    dependencies:
+      jotai: 2.7.0(@types/react@18.2.60)(react@18.2.0)
+    dev: false
+
   /jotai-location@0.5.4(jotai@2.7.0):
     resolution: {integrity: sha512-IqpyYLAF6HgoDoJVlX66IGvgrugCA1LJybT01NqenpdwypPtUB6u0cnJZMbN6axU+Yl2FTI6l+4x9IWh4WGFRA==}
     peerDependencies:
@@ -3827,6 +3841,16 @@ packages:
     dependencies:
       jotai: 2.7.0(@types/react@18.2.60)(react@18.2.0)
       optics-ts: 2.4.1
+    dev: false
+
+  /jotai-scope@0.5.1(jotai@2.7.0)(react@18.2.0):
+    resolution: {integrity: sha512-GKaqtCj1Hv36nyl63PVm+s5jo+hQqz+wAb81iqA8VuUXp5ot4eXGOZt4Hc66lFZMP0N/yEOISMlazprmDI6kFA==}
+    peerDependencies:
+      jotai: '>=2.5.0'
+      react: '>=17.0.0'
+    dependencies:
+      jotai: 2.7.0(@types/react@18.2.60)(react@18.2.0)
+      react: 18.2.0
     dev: false
 
   /jotai@2.7.0(@types/react@18.2.60)(react@18.2.0):
